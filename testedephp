@@ -1,0 +1,16 @@
+<?php
+$felipe = "Felipe";
+$felipe['sobrenome'][0] = "Sarcinelli";
+$felipe['sobrenome'][1] = "Luz";
+
+print $felipe;
+
+foreach( $felipe['sobrenome'] as $i){
+  if(!empty($i)){
+    print $i;
+    }
+  }
+
+
+
+?>
